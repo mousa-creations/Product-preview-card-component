@@ -1,0 +1,53 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container .card {
+    width: 350px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    width: 350px;
+    height: 342px;
+    object-fit: cover;
+    object-position: 0px 27%;
+  }
+
+  .container .card .text {
+    padding: 14px 20px;
+  }
+
+  .container .card .text .top-p {
+    font-size: 0.8rem;
+  }
+
+  .container .card .text h1 {
+    padding-top: 15px;
+  }
+
+  .container .card .text .center-p {
+    font-size: 0.9rem;
+    padding: 17px 5px 0 5px;
+  }
+
+  .container .card .text .price-p {
+    padding-top: 15px;
+  }
+
+  .btn {
+    margin-top: 15px;
+    padding: 17px 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn .fa-cart-shopping {
+    margin-right: 10px;
+  }
+}
