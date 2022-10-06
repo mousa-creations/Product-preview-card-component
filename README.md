@@ -60,7 +60,7 @@ I used Html CSS to build the responsive product page and I started by making a c
 
 ## Author
 
-- Website - [Muhamad Mousa](https://www.arabtoutrial.com/)
+- Website - [Shrwhat Blarabi](https://www.arabtoutrial.com/)
 - Frontend Mentor - [@mousa-creations](https://www.frontendmentor.io/profile/mousa-creations)
 - Twitter - [@BalShrwhat](https://www.twitter.com/BalShrwhat)
 
