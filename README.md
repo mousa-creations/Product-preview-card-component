@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution](https://your-solution-url.com)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Solution URL: [My solution](https://github.com/mousa-creations/Product-preview-card-component)
+- Live Site URL: [Live site URL](https://product-preview-carda-component.netlify.app)
 
 ## My process
 
