@@ -11,10 +11,9 @@
   }
 
   img {
-    width: 350px;
+    max-width: 350px;
     height: 342px;
     object-fit: cover;
-    object-position: 0px 27%;
   }
 
   .container .card .text {
