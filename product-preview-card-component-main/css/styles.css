@@ -92,8 +92,7 @@ body {
 }
 
 img {
-  width: 100%;
-  max-width: 510px;
+  max-width: 270px;
   height: auto;
   display: block;
 }
