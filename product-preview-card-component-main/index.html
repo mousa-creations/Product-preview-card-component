@@ -13,7 +13,7 @@
     />
     <!-- Css stylesheet -->
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/mobile.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -24,10 +24,20 @@
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
-    <div class="container">
+    <main class="container">
       <div class="card">
         <div class="side-img">
-          <img src="images/image-product-desktop.jpg" alt="" />
+          <picture>
+            <source
+              media="(max-width:600px)"
+              srcset="./images/image-product-mobile.jpg"
+            />
+            <img
+              src="./images/image-product-desktop.jpg"
+              alt="Gabrielle Parfum"
+              style="width: auto"
+            />
+          </picture>
         </div>
         <div class="text">
           <p class="top-p">Perfume</p>
@@ -42,7 +52,7 @@
           </button>
         </div>
       </div>
-    </div>
+    </main>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
       integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
